@@ -1,0 +1,65 @@
+.sidebar {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    left: 0px;
+    top: 50px;
+    bottom: 0;
+    width: 72px;
+    z-index: 200;
+}
+
+
+/* .home {
+    height: 24px;
+    display: block;
+}
+
+.explore {
+    height: 24px;
+    display: block;
+}
+
+.library {
+    height: 24px;
+    display: block;
+}
+
+.originals {
+    height: 24px;
+    display: block;
+}
+
+.subscription {
+    height: 24px;
+    display: block;
+}
+
+.music {
+    height: 24px;
+    display: block;
+} */
+
+.sidebar-link {
+    background-color: white;
+    height: 100px;
+    margin-bottom: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(233, 230, 230);
+}
+
+.sidebar-link img {
+    height: 30px;
+    display: flex;
+}
+
+.sidebar-link div {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    font-weight: 500;
+}
